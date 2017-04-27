@@ -1,26 +1,21 @@
 <html>
 
     <head>
-
         <title>Mon formulaire</title>
 		<link type="text/css" rel="stylesheet" href="styles.css"/>
-
     </head>
 
 
     <body>
-
-        <form>
-
-            <label for="field_1">Comment t'appelles-tu? </label>
-
-            <input id="input" type="text" name="field_1" placeholder="entre ton nom..." />
-
-
-            <input type="submit" value="Envoyer" />
-
-        </form>
-
+		<div id="princ">
+			<div id="form">
+				<label>Comment t'appelles-tu? </label>
+				<input id="name_in" type="text" placeholder="entre ton nom..." />
+				<button type="button" onclick="toggle_text();" >Envoyer</button>
+			</div>
+			
+			<script src="boutton.js" type="text/javascript"></script>
+		</div>
     </body>
 
 </html>

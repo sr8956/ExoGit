@@ -1,8 +1,14 @@
-*{	
-	text-align: center;
-	margin-top: 100px;
+body{
 	background-color: #e6f2ff;
 }
-#input{
+#princ{
+	text-align: center;
+	margin-top: 50px;
+}
+#form{	
+	background-color: #cce6ff;
+
+}
+#name_in{
 	margin-left: 20px;
 }
